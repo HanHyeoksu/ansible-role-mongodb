@@ -119,3 +119,6 @@ mongodb_root_backup_password: passw0rd
 
 # setParameter config
 mongodb_set_parameters:
+
+# to avoid "yum lockfile is held by another process" error
+yum_lock_timeout: 180
